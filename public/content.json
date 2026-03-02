@@ -1,0 +1,63 @@
+{
+    "featured_art":[
+        {
+            "artist":"example artist",
+            "image_name":"/globe.svg",
+            "title":"name of art",
+            "year":"2026",
+            "medium":"screen print",
+            "dimentions":"10\" x 10\"",
+            "description":"this is a peice of art"
+        }
+    ],
+    "featured-exhibitions":[
+        {
+            "title":"really cool exhibition",
+            "description":"this was a nice one",
+            "slug":"name-of-exhibition-one",
+            "image_name":"/globe.svg"
+        },
+        {
+            "title":"cool exhibition",
+            "description":"this one was nice as well",
+            "slug":"name-of-exhibition-two",
+            "image_name":"/globe.svg"
+        },
+                {
+            "title":"pretty cool exhibition",
+            "description":"this one was alright",
+            "slug":"name-of-exhibition-three",
+            "image_name":"/globe.svg"
+        }
+    ],
+    "artists":[
+        {
+            "name":"example artist",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image-name":"globe.svg",
+                    "title":"name of art",
+                    "year":"2026",
+                    "medium":"screen print",
+                    "dimentions":"10\" x 10\""
+                }
+            ],
+            "videos":[
+                {
+                    "url":"https://youtu.be/E9LDG-ceMKM",
+                    "description":"this is a video"
+                }
+            ],
+            "press":[
+                {
+                    "title":"the wonderus life of example artist",
+                    "year":"2020",
+                    "description":"this is a newspaper article",
+                    "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
+                }
+            ]
+        }
+    ]
+}
