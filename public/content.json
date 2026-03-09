@@ -33,6 +33,7 @@
     "artists":[
         {
             "name":"example artist",
+            "slug":"example_artist",
             "biography":"some text about this dude",
             "image_name":"/globe.svg",
             "works":[
@@ -54,6 +55,35 @@
                 {
                     "title":"the wonderus life of example artist",
                     "year":"2020",
+                    "description":"this is a newspaper article",
+                    "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
+                }
+            ]
+        },
+        {
+            "name":"second example artist",
+            "slug":"second_example_artist",
+            "biography":"some text about this dudet",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image-name":"globe.svg",
+                    "title":"name of art",
+                    "year":"1999",
+                    "medium":"wood block",
+                    "dimentions":"20\" x 15\""
+                }
+            ],
+            "videos":[
+                {
+                    "url":"https://youtu.be/E9LDG-ceMKM",
+                    "description":"this is a video"
+                }
+            ],
+            "press":[
+                {
+                    "title":"the wonderus life of second example artist",
+                    "year":"2023",
                     "description":"this is a newspaper article",
                     "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
                 }

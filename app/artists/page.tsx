@@ -18,16 +18,18 @@ export default async function Page({
   const artists= data["artists"];
     return (
     <div>
-        <div className="featured-exhibition">
+        <div className="all_artists">
                   {artists.map((artist: any) => (
                     <div key={artist.name}>
-                      <Image 
-                      src={artist.image_name}
-                      alt="featured image"
-                      width={200}
-                      height={100}
-                      />
-                      <h2>{artist.name}</h2>
+                      <a href={`/artists/${artist.slug}`}>
+                        <Image 
+                        src={artist.image_name}
+                        alt="featured image"
+                        width={200}
+                        height={100}
+                        />
+                        <h2>{artist.name}</h2>
+                      </a>
                     </div>
                   ))}
                 </div>
