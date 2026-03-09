@@ -38,7 +38,7 @@
             "image_name":"/globe.svg",
             "works":[
                 {
-                    "image-name":"globe.svg",
+                    "image_name":"/globe.svg",
                     "title":"name of art",
                     "year":"2026",
                     "medium":"screen print",
@@ -47,7 +47,7 @@
             ],
             "videos":[
                 {
-                    "url":"https://youtu.be/E9LDG-ceMKM",
+                    "url":"https://www.youtube.com/embed/E9LDG-ceMKM?si=rFcuvFpnDXnx_CxY",
                     "description":"this is a video"
                 }
             ],
@@ -67,7 +67,7 @@
             "image_name":"/globe.svg",
             "works":[
                 {
-                    "image-name":"globe.svg",
+                    "image_name":"/globe.svg",
                     "title":"name of art",
                     "year":"1999",
                     "medium":"wood block",
@@ -76,7 +76,7 @@
             ],
             "videos":[
                 {
-                    "url":"https://youtu.be/E9LDG-ceMKM",
+                    "url":"https://www.youtube.com/embed/E9LDG-ceMKM?si=rFcuvFpnDXnx_CxY",
                     "description":"this is a video"
                 }
             ],

@@ -6,9 +6,10 @@ import ArtistContent from "./artistcontent.jsx";
 
 function ArtistNav (props) {
   const [content, setContent] = useState(0);
+  const artistName = props.name;
   return (
     <div className="artist-nav">
-        <p>{props.name}</p>
+        <p>{artistName}</p>
         <ul>
             <li><a onClick={() => setContent("selectedWorks")}>Selected Works</a></li>
             <li><a onClick={() => setContent("biography")}>Biography</a></li>
@@ -19,7 +20,7 @@ function ArtistNav (props) {
             <li><a onClick={() => setContent("press")}>Press</a></li>
         </ul>
 
-      <ArtistContent display={content} /> 
+      <ArtistContent name={artistName} display={content} /> 
 
     </div>
   );

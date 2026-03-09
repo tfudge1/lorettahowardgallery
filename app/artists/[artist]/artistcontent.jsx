@@ -1,24 +1,24 @@
-'use client';
-
 import { useState } from 'react';
 import Image from "next/image";
+import data from "../../../public/content.json";
+
 
 function ArtistContent (display) {
     let content;
-    // console.log("dsplay:" + display.display);
+    console.log("dsplay:" + display.name);
+    const _data = data["artists"];
+    // console.log(_data);
+    let artist;
+    for (let index = 0; index < _data.length; index++) {
+        if (_data[index].name == display.name) {
+            artist = _data[index];
+        }
+    }
     switch (display.display) {
-        case display="selectedWorks":
-            content = (
-            <div>
-                <p>Selected Works here</p>
-            </div>
-        )
-            break;//selectedWorks
-
         case display="biography":
             content =  (
             <div>
-                <p>biography here</p>
+                <p>{artist.biography}</p>
             </div>
         )
             break;//bio
@@ -26,7 +26,13 @@ function ArtistContent (display) {
         case display="videos":
             content =  (
             <div>
-                <p>videos here</p>
+                {artist.videos.map((video) => (
+                    <div key={video.description}>
+                        <iframe src={video.url} allowFullScreen />
+                        <p>{video.description}</p>
+                    </div>
+                  ))}
+                
             </div>
         )
             break;//videos
@@ -66,10 +72,23 @@ function ArtistContent (display) {
         default:
             content = (
             <div>
-                <p>default</p>
+                {artist.works.map((work) => (
+                    <div key={work.title}>
+                        <Image 
+                            src={work.image_name}
+                            alt="featured image"
+                            width={200}
+                            height={100}
+                        />
+                        <p>{work.title}</p>
+                        <p>{work.year}</p>
+                        <p>{work.medium}</p>
+                        <p>{work.dimentions}</p>
+                    </div>
+                  ))}
             </div>
             )
-            break;
+            break;//selectedWorks
     }
     return content;
 };
