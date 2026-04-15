@@ -16,7 +16,6 @@ function ArtistNav (props) {
             <li><a onClick={() => setContent("videos")}>Videos</a></li>
             <li><a onClick={() => setContent("exhibitions")}>Exhibitions</a></li>
             <li><a onClick={() => setContent("catalouges")}>Catalogues</a></li>
-            <li><a onClick={() => setContent("news")}>News</a></li>
             <li><a onClick={() => setContent("press")}>Press</a></li>
         </ul>
 

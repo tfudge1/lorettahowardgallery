@@ -48,23 +48,43 @@ function ArtistContent (display) {
         case display="catalouges":
             content =  (
             <div>
-                <p>catalouges here</p>
+                {artist.catalogues.map((catalogue) => (
+                    <div key={catalogue.title}>
+                        <p>{catalogue.title}</p>
+                        <p>{catalogue.year}</p>
+                        <Image 
+                            src={catalogue.image_name}
+                            alt="catalogue image"
+                            width={200}
+                            height={100}
+                        />
+                        <p>{catalogue.description}</p>
+                        <a href={catalogue.pdf_link}>Download PDF</a>
+                        <br />
+                        <a href={catalogue.book_link}>Click Here to Purchase</a>
+                    </div>
+                  ))}
             </div>
         )
             break;//catalouges
 
-        case display="news":
-            content =  (
-            <div>
-                <p>news here</p>
-            </div>
-        )
-            break;//news
-
         case display="press":
             content =  (
             <div>
-                <p>press here</p>
+                {artist.press.map((press) => (
+                    <div key={press.title}>
+                        <Image 
+                            src={press.image_name}
+                            alt="article image"
+                            width={200}
+                            height={100}
+                        />
+                        <p>{press.title}</p>
+                        <p>{press.year}</p>
+                        <p>{press.description}</p>
+                        <a href={press.url}>View Article</a>
+                    </div>
+                  ))}
             </div>
         )
             break;//press

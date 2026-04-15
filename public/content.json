@@ -54,9 +54,20 @@
             "press":[
                 {
                     "title":"the wonderus life of example artist",
-                    "year":"2020",
+                    "year":"Feburary 2020",
+                    "image_name":"/globe.svg",
                     "description":"this is a newspaper article",
                     "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
+                }
+            ],
+            "catalogues":[
+                {
+                    "title":"artist name: catalogue name",
+                    "year":"2018",
+                    "image_name":"/globe.svg",
+                    "description": "this is some stuff about a catalouge",
+                    "pdf_link":"/RichardAnuszkiewicRichardAnuszkiewiczPDF.pdf",
+                    "book_link":"https://www.blurb.com/b/8569161-richard-anuszkiewicz-translumina-series"
                 }
             ]
         },
@@ -88,6 +99,26 @@
                     "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
                 }
             ]
+        }
+    ],
+    "catalogues":[
+        {
+            "title":"artist name: catalogue name",
+            "slug":"artist_name_catalogue_name_2018",
+            "year":"2018",
+            "image_name":"/globe.svg",
+            "description": "this is some stuff about a catalouge",
+            "pdf_link":"/RichardAnuszkiewiczPDF.pdf",
+            "book_link":"https://www.blurb.com/b/8569161-richard-anuszkiewicz-translumina-series"
+        },
+        {
+            "title":"artist name: second catalogue name",
+            "slug":"artist_name_second_catalogue_name_2016",
+            "year":"2016",
+            "image_name":"/globe.svg",
+            "description": "this is some stuff about this catalouge",
+            "pdf_link":"/RichardAnuszkiewiczPDF.pdf",
+            "book_link":"https://www.blurb.com/b/8569161-richard-anuszkiewicz-translumina-series"
         }
     ]
 }
