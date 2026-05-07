@@ -147,5 +147,19 @@
                 }
             ]
         }
+    ],
+    "news":[
+        {
+            "title":"Electric Op at the Buffalo AKG Art Museum",
+            "slug":"Electric-Op-at-the-Buffalo-AKG-Art-Museum",
+            "image_name":"/globe.svg",
+            "content":"Richard Anuszkiewicz and Al Held featured in Electric Op at the Buffalo AKG Art Museum in Buffalo, New York. Through January 27, 2025 In the 1960s, electronic media began reformatting the nature of images and how we see. Unlike static paintings or sculptures, video and digital images are dynamic and interactive, made of abstract patterns of information that are manipulated, stored, and shared as electronic signals or numerical bits of data.",
+            "links":[
+                {
+                    "url":"https://buffaloakg.org/art/exhibitions/electric-op",
+                    "link_name":"View Exhibition"
+                }
+            ]
+        }
     ]
 }
