@@ -28,7 +28,8 @@ export default async function Page({
                         width={200}
                         height={100}
                         />
-                        <h2>{exhibition.name}</h2>
+                        <h2>{exhibition.title}</h2>
+                        <h4>{exhibition.date_range}</h4>
                       </a>
                     </div>
                   ))}

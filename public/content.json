@@ -130,11 +130,11 @@
             "description":"The Nassau County Museum of Art’s exhibition, Seeing Red: Renoir to Warhol, explores the myriad meanings, connotations, and associations of this powerful color in art.",
             "art":[
                 {
-                    "url":"/globe",
+                    "url":"/globe.svg",
                     "description":"Cleve Gray, Silver Voyage, 1967, Acrylic on canvas with silver enamel, 79 x 80 inches"
                 },
                 {
-                    "url":"/globe",
+                    "url":"/globe.svg",
                     "description":"Joel Perlman, Red Tower, 1989, Bronze, 31 x 18 x 14 inches"
                 }
             ],

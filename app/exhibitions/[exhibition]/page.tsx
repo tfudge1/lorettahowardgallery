@@ -19,7 +19,7 @@ const pathname = usePathname().slice(13);
 
   return(
     <div>
-        <ExhibitionNav title={exhibition?.title} />
+        <ExhibitionNav title={exhibition?.title} date_range={exhibition?.date_range} />
     </div>
   )
 }
