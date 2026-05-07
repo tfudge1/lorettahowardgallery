@@ -120,5 +120,32 @@
             "pdf_link":"/RichardAnuszkiewiczPDF.pdf",
             "book_link":"https://www.blurb.com/b/8569161-richard-anuszkiewicz-translumina-series"
         }
+    ],
+    "exhibitions":[
+        {
+            "title":"Seeing Red",
+            "slug":"seeing_red",
+            "date_range":"August 5 - September 30",
+            "year": 2024,
+            "description":"The Nassau County Museum of Art’s exhibition, Seeing Red: Renoir to Warhol, explores the myriad meanings, connotations, and associations of this powerful color in art.",
+            "art":[
+                {
+                    "url":"/globe",
+                    "description":"Cleve Gray, Silver Voyage, 1967, Acrylic on canvas with silver enamel, 79 x 80 inches"
+                },
+                {
+                    "url":"/globe",
+                    "description":"Joel Perlman, Red Tower, 1989, Bronze, 31 x 18 x 14 inches"
+                }
+            ],
+            "artists":[
+                {
+                    "slug":"second_example_artist"
+                },
+                {
+                    "slug":"example_artist"
+                }
+            ]
+        }
     ]
 }

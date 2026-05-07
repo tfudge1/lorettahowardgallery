@@ -1,14 +1,38 @@
+import content from "../../public/content.json";
+import Image from "next/image";
 
-export default function Page({
+async function getData() {
+  const res = content
+  return res
+}
+
+export default async function Page({
   // params,
   // searchParams,
 }: {
   // params: Promise<{ slug: string }>
   // searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+  
 }) {
+  const data = await getData();
+  const exhibitions= data["exhibitions"];
     return (
     <div>
-        <p>nothing to see here... yet</p>
+        <div className="all_exhibitions">
+                  {exhibitions.map((exhibition: any) => (
+                    <div key={exhibition.title}>
+                      <a href={`/exhibitions/${exhibition.slug}`}>
+                        <Image 
+                        src={exhibition.art[0].url}
+                        alt="featured image"
+                        width={200}
+                        height={100}
+                        />
+                        <h2>{exhibition.name}</h2>
+                      </a>
+                    </div>
+                  ))}
+                </div>
     </div>
   )
 }
