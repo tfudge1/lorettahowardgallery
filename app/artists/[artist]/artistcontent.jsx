@@ -5,7 +5,6 @@ import data from "../../../public/content.json";
 
 function ArtistContent (display) {
     let content;
-    console.log("dsplay:" + display.name);
     const _data = data["artists"];
     // console.log(_data);
     let artist;
@@ -38,11 +37,38 @@ function ArtistContent (display) {
             break;//videos
 
         case display="exhibitions":
+
+            let display_exhibitions_list = (<p></p>);
+            for(let artists_exhibitions = 0; artists_exhibitions < artist.exhibitions.length; artists_exhibitions++){
+                let current_artist_slug = artist.exhibitions[artists_exhibitions];
+                for(let all_exhibitions_i = 0; all_exhibitions_i < data.exhibitions.length; all_exhibitions_i++){
+                    let current_exhibition = data.exhibitions[all_exhibitions_i];
+                    if(current_artist_slug.slug == current_exhibition.slug){
+                        display_exhibitions_list = (
+                        <div>
+                            <Image 
+                            src={current_exhibition.art[0].url}
+                            alt="exhibition image"
+                            width={200}
+                            height={100}
+                        />
+                        <h2>{current_exhibition.title}</h2>
+                        <p>{current_exhibition.date_range}, {current_exhibition.year}</p>
+                        <a href={`/exhibitions/${current_exhibition.slug}`}><p>View Exhibition</p></a>
+                        {display_exhibitions_list}
+                        </div>
+                        );
+                    }
+                }
+
+            }
+            
             content =  (
             <div>
-                <p>exhibitions here</p>
+                {display_exhibitions_list}
             </div>
-        )
+            )
+
             break;//exhibitions
 
         case display="catalouges":

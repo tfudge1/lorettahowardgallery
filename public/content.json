@@ -46,6 +46,11 @@
                     "description":"this is a newspaper article",
                     "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
                 }
+            ],
+            "exhibitions":[
+                {
+                    "slug":"seeing_red"
+                }
             ]
         },
         {
@@ -124,6 +129,11 @@
                     "medium":"Oil on canvas",
                     "dimentions":"38 x 35-1/2 inches"
                 }
+            ],
+            "exhibitions":[
+                {
+                    "slug":"seeing_red"
+                }
             ]
         },
         {
@@ -160,7 +170,12 @@
                     "medium":"Oil on canvas",
                     "dimentions":"60 x 48 inches"
                 }  
-           	]
+           	],
+            "exhibitions":[
+                {
+                    "slug":"seeing_red"
+                }
+            ]
         },
         {
             "name":"Richard Anuszkiewicz",
@@ -245,7 +260,12 @@
                     "medium":"Enamel on wood construction",
                     "dimentions":"110 x 116 inches"
                 }
-           	]
+           	],
+            "exhibitions":[
+                {
+                    "slug":"seeing_red"
+                }
+            ]
         },
         {
             "name":"Roberto Caracciolo",
@@ -470,7 +490,12 @@
                     "medium":"Oil on canvas",
                     "dimentions":"12 & 13-3/4 x 15-3/4 inches"
                 }
-           	]
+           	],
+            "exhibitions":[
+                {
+                    "slug":"seeing_red"
+                }
+            ]
         }
     ],
     "catalogues":[
