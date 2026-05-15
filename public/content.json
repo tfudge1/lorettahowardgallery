@@ -12,16 +12,10 @@
     ],
     "featured-exhibitions":[
         {
-            "title":"really cool exhibition",
-            "description":"this was a nice one",
-            "slug":"name-of-exhibition-one",
-            "image_name":"/globe.svg"
+            "slug":"seeing_red"
         },
         {
-            "title":"cool exhibition",
-            "description":"this one was nice as well",
-            "slug":"name-of-exhibition-two",
-            "image_name":"/globe.svg"
+            "slug":"shirley_goldfarb_in_americans_in_paris"
         }
     ],
     "artists":[
@@ -522,6 +516,28 @@
                 },
                 {
                     "slug":"example_artist"
+                }
+            ]
+        },
+        {
+            "title":"Shirley Goldfarb in \"Americans in Paris\" at New York University's Grey Art Museum",
+            "slug":"shirley_goldfarb_in_americans_in_paris",
+            "date_range":"April 29",
+            "year": 2024,
+            "description":"Loretta Howard Gallery is pleased to present a group of 1960s oil paintings on paper by Shirley Goldfarb. These small format works were tipical of her studio practice, often used as studies for large scale paintings.<br />Following World War II, hundreds of artists from the United States flocked to the City of Light, which for centuries had been heralded as an artistic mecca and international cultural capital. Americans in Paris explores a vibrant community of expatriates who lived in France during the post war period.<br />Fresh from studies at the Art Students League in New York, Shirley Goldfarb and her husband Gregory Masurovsky, an ex-soldier, took advantage of a newly enacted GI Bill which covered tuition and living expenses. They moved to Paris in 1954, settling in Montparnasse where they would live the rest of their lives.<br />For many women artists like Goldfarb, Paris promised a society less constrained by sexism and the exclusionary power structures of the New York art world. In Paris Goldfarb came into her own as an artist. She diffused the painterly action of Abstract Expressionism with a sense of light and color owed to her adoptive city.<br />The Lure of Paris exhibition was presented at the Loretta Howard Gallery in 2012.<br />View New York Times Review - How Paris Changed the Expat Artists",
+            "art":[
+                {
+                    "url":"/globe.svg",
+                    "description":"Shirley Goldfarb in her Paris studio, Photo by Gregory Masurovsky"
+                },
+                {
+                    "url":"/globe.svg",
+                    "description":"Untitled (SG42515), 1962 Oil on paper 8 x 5 inches"
+                }
+            ],
+            "artists":[
+                {
+                    "slug":"second_example_artist"
                 }
             ]
         }

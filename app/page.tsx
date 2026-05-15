@@ -10,7 +10,30 @@ async function getData() {
 export default async function Home() {
   const data = await getData();
   const featured_art= data["featured_art"];
+  const exhibitions = data["exhibitions"];
   const featured_exhibitions= data["featured-exhibitions"];
+  let display_exhibitions = (<p></p>);
+    for (let x = 0; x < featured_exhibitions.length; x++){ // iterate through features exhibitions slugs
+      let _featured_exhibitions = featured_exhibitions[x].slug;
+        for (let i = 0; i < exhibitions.length; i++){ // iterate through all exhibitons to find slug
+          let _full_exhibition = exhibitions[i];
+            if (_featured_exhibitions == _full_exhibition.slug){
+              display_exhibitions = (<div key={_full_exhibition.slug}>
+              <Image 
+              src={_full_exhibition.art[0].url}
+              alt="featured image"
+              width={200}
+              height={100}
+              />
+              <h2>{_full_exhibition.title}</h2>
+              <p>{_full_exhibition.description}</p>
+              <p> <a href={`/exhibitions/${_full_exhibition.slug}`}>View Exhibition</a></p>
+              {display_exhibitions}
+              </div>
+              )
+            }
+        }
+    }
 
   return (
     <div>
@@ -30,19 +53,7 @@ export default async function Home() {
         </div>{/*  featured-art */}
 
         <div className="featured-exhibition">
-          {featured_exhibitions.map((exhibitions: any) => (
-            <div key={exhibitions.slug}>
-              <Image 
-              src={exhibitions.image_name}
-              alt="featured image"
-              width={200}
-              height={100}
-              />
-              <h2>{exhibitions.title}</h2>
-              <p>{exhibitions.description}</p>
-              <p> <a href={exhibitions.slug}>View Exhibition</a></p>
-            </div>
-          ))}
+          {display_exhibitions}
         </div>
 
       </main>
