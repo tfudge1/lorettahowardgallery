@@ -51,6 +51,11 @@
                 {
                     "slug":"seeing_red"
                 }
+            ],
+            "catalogues":[
+                {
+                    "slug":"artist_name_catalogue_name_2018"
+                }
             ]
         },
         {

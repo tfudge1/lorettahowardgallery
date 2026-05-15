@@ -72,26 +72,40 @@ function ArtistContent (display) {
             break;//exhibitions
 
         case display="catalouges":
-            content =  (
-            <div>
-                {artist.catalogues.map((catalogue) => (
-                    <div key={catalogue.title}>
-                        <p>{catalogue.title}</p>
-                        <p>{catalogue.year}</p>
-                        <Image 
-                            src={catalogue.image_name}
-                            alt="catalogue image"
+
+            let display_catalouges_list = (<p></p>);
+            console.log("artist.catalogues.length: " + artist.catalogues);
+            for(let artists_catalouges = 0; artists_catalouges < artist.catalogues.length; artists_catalouges++){
+                console.log("artists_catalouges: " + artists_catalouges);
+                console.log("artist.catalouges[0]: " + artist.catalogues[0]);
+                let current_artist_slug = artist.catalogues[artists_catalouges];
+                for(let all_catalouges_i = 0; all_catalouges_i < data.catalogues.length; all_catalouges_i++){
+                    let current_catalouge = data.catalogues[all_catalouges_i];
+                    if(current_artist_slug.slug == current_catalouge.slug){
+                        display_catalouges_list = (
+                        <div>
+                            <Image 
+                            src={current_catalouge.image_name}
+                            alt="exhibition image"
                             width={200}
                             height={100}
                         />
-                        <p>{catalogue.description}</p>
-                        <a href={catalogue.pdf_link}>Download PDF</a>
-                        <br />
-                        <a href={catalogue.book_link}>Click Here to Purchase</a>
-                    </div>
-                  ))}
+                        <h2>{current_catalouge.title}</h2>
+                        <p>{current_catalouge.year}</p>
+                        <a href={`/catalogues/${current_catalouge.slug}`}><p>View Catalogue</p></a>
+                        {display_catalouges_list}
+                        </div>
+                        );
+                    }
+                }
+
+            }
+            
+            content =  (
+            <div>
+                {display_catalouges_list}
             </div>
-        )
+            )
             break;//catalouges
 
         case display="press":
