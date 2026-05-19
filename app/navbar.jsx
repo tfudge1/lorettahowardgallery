@@ -14,7 +14,7 @@ const Navbar = () => {
           priority
         />
         </a>
-        <ul>
+        <ul id='headding-links'>
           <li><Link href="/artists">Artists</Link></li>
           <li><Link href="/exhibitions">Exhibitions</Link></li>
           <li><Link href="/catalogues">Catalogues</Link></li>

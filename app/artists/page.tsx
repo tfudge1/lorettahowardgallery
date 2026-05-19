@@ -18,9 +18,9 @@ export default async function Page({
   const artists= data["artists"];
     return (
     <div>
-        <div className="all_artists">
+        <div className="all_items">
                   {artists.map((artist: any) => (
-                    <div key={artist.name}>
+                    <div key={artist.name} className="individual_items">
                       <a href={`/artists/${artist.slug}`}>
                         <Image 
                         src={artist.image_name}

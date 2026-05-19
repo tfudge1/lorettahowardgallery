@@ -18,9 +18,9 @@ export default async function Page({
   const catalogues= data["catalogues"];
     return (
     <div>
-        <div className="all_artists">
+        <div className="all_items">
                   {catalogues.map((catalogues: any) => (
-                    <div key={catalogues.title}>
+                    <div key={catalogues.title} className="individual_items">
                       <a href={`/catalogues/${catalogues.slug}`}>
                         <Image 
                           src={catalogues.image_name}

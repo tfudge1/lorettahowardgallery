@@ -18,9 +18,9 @@ export default async function Page({
   const news= data["news"];
     return (
     <div>
-        <div className="all_exhibitions">
+        <div className="all_items">
                   {news.map((news: any) => (
-                    <div key={news.title}>
+                    <div key={news.title} className="individual_items">
                       <a href={`/news/${news.slug}`}>
                         <Image 
                         src={news.image_name}

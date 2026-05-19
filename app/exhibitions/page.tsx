@@ -18,9 +18,9 @@ export default async function Page({
   const exhibitions= data["exhibitions"];
     return (
     <div>
-        <div className="all_exhibitions">
+        <div className="all_items">
                   {exhibitions.map((exhibition: any) => (
-                    <div key={exhibition.title}>
+                    <div key={exhibition.title} className="individual_items">
                       <a href={`/exhibitions/${exhibition.slug}`}>
                         <Image 
                         src={exhibition.art[0].url}

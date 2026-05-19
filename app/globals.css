@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+.nav-headding{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: .5em;
+}
+
+#headding-links{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+li{
+    padding: 1em;
+}
+._body{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+.all_items{
+    display: flex;
+    gap:2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.individual_items{
+    align-self: flex-start;
+    max-height: 25vw;
+    max-width: 25vw;
+}
