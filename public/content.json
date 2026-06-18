@@ -19,7 +19,7 @@
         }
     ],
     "artists":[
-                        {
+        {
             "name":"second example artist",
             "slug":"second_example_artist",
             "biography":"some text about this dudet",
@@ -55,6 +55,96 @@
             "catalogues":[
                 {
                     "slug":"artist_name_catalogue_name_2018"
+                }
+            ]
+        },
+        {
+            "name":"Richard Anuszkiewicz",
+            "slug":"richard_anuszkiewicz",
+            "biography":"I'm interested in making something romantic out of a very, very mechanistic geometry. Geometry and color represent to me an idealized classical place that's very clear and very pure. -Richard Anuskiewicz <br /> Richard Anuszkiewicz received his bachelor’s degree from Cleveland Institute of Art in Ohio in 1953.  He studied at Yale University School of Art and Architecture in New Haven, Connecticut from 1953 to 1955, where he earned his Masters of Fine Arts. His works were included in the seminal 1965 exhibition The Responsive Eye at the Museum of Modern Art and along with Victor Vasarely and Bridget Riley; he was considered a pioneer of the Optical Art Movement. Life magazine called him “The New Wizard of Op.” <br />While Anuszkiewicz is known for his important developments as an Op Artist, his paintings also call fourth other associations; mainly the rigorous color theory of his mentor Josef Albers. Anuszkiewicz activates the space around his vividly chromatic squares with diagonals radiating lines to suggest volumes of depth. His paintings explore the optical properties of color; challenging the eye of each viewer while investigating formal, structural and color effects <br />His work is included in many important public and private collections including The Albright-Knox Art Gallery, Buffalo, NY, Art Institute of Chicago, Chicago, IL, Brooklyn Museum, Brooklyn, NY, The Corcoran Museum of Art, Washington, DC, Denver Museum of Art, Denver, CO, Detroit Institute of Art, Denver, CO, Solomon R Guggenheim Museum, New York, NY, Hirschhorn Museum and Sculpture Garden, Washington, DC., Metropolitan Museum of Art, New York, NY, Museum of Modern Art, New York, NY, Philadelphia Museum of Art, Philadelphia, PA and the Whitney Museum of American Art, New York, NY.",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Left to right: Metamorphosis of Cadmium Red - Blue Line II, Blue Green Line II, Green Line II, Yellow Green Line II",
+                    "year":"1979 - 2017",
+                    "medium":"screen print",
+                    "dimentions":"18 x 18 inches"
+                },
+ 		        {
+                    "image_name":"/globe.svg",
+                    "title":"League of Women Voters",
+                    "year":"1969",
+                    "medium":"Color screenprint on paper, edition of 144, Edition number 10/144",
+                    "dimentions":"8-1/2 x 37-1/4 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Translumina – Yellow and Orange on Light Blue (No. 991)",
+                    "year":"1992",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"54 x 54 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Translumina with Deep Blue (No. 839)",
+                    "year":"1986",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"48 x 48 inches"
+                },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Midnight Blue",
+                    "year":"1979 - 2016",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"48 x 48 inches"
+                },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Red Edged Green Square",
+                    "year":"1977 - 2017",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"36 x 36 inches"
+                },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Radiant Blue",
+                    "year":"1977 - 2017",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"30 x 30 inches"
+                },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Temple of the Summer Evening",
+                    "year":"1983-2018",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"60 x 48 inches"
+                },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Temple of Green Mist",
+                    "year":"1983-2019",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"84 x 60 inches"
+                },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Temple of Yellow Light II",
+                    "year":"1984",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"17 x 12 inches"
+        	    },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Translumina - Marriage of Silver and Gold",
+                    "year":"1992",
+                    "medium":"Enamel on wood construction",
+                    "dimentions":"110 x 116 inches"
+                }
+           	],
+            "exhibitions":[
+                {
+                    "slug":"seeing_red"
                 }
             ]
         },
@@ -175,96 +265,6 @@
                     "medium":"Oil on canvas",
                     "dimentions":"60 x 48 inches"
                 }  
-           	],
-            "exhibitions":[
-                {
-                    "slug":"seeing_red"
-                }
-            ]
-        },
-        {
-            "name":"Richard Anuszkiewicz",
-            "slug":"richard_anuszkiewicz",
-            "biography":"I'm interested in making something romantic out of a very, very mechanistic geometry. Geometry and color represent to me an idealized classical place that's very clear and very pure. -Richard Anuskiewicz <br /> Richard Anuszkiewicz received his bachelor’s degree from Cleveland Institute of Art in Ohio in 1953.  He studied at Yale University School of Art and Architecture in New Haven, Connecticut from 1953 to 1955, where he earned his Masters of Fine Arts. His works were included in the seminal 1965 exhibition The Responsive Eye at the Museum of Modern Art and along with Victor Vasarely and Bridget Riley; he was considered a pioneer of the Optical Art Movement. Life magazine called him “The New Wizard of Op.” <br />While Anuszkiewicz is known for his important developments as an Op Artist, his paintings also call fourth other associations; mainly the rigorous color theory of his mentor Josef Albers. Anuszkiewicz activates the space around his vividly chromatic squares with diagonals radiating lines to suggest volumes of depth. His paintings explore the optical properties of color; challenging the eye of each viewer while investigating formal, structural and color effects <br />His work is included in many important public and private collections including The Albright-Knox Art Gallery, Buffalo, NY, Art Institute of Chicago, Chicago, IL, Brooklyn Museum, Brooklyn, NY, The Corcoran Museum of Art, Washington, DC, Denver Museum of Art, Denver, CO, Detroit Institute of Art, Denver, CO, Solomon R Guggenheim Museum, New York, NY, Hirschhorn Museum and Sculpture Garden, Washington, DC., Metropolitan Museum of Art, New York, NY, Museum of Modern Art, New York, NY, Philadelphia Museum of Art, Philadelphia, PA and the Whitney Museum of American Art, New York, NY.",
-            "image_name":"/globe.svg",
-            "works":[
-                {
-                    "image_name":"/globe.svg",
-                    "title":"Left to right: Metamorphosis of Cadmium Red - Blue Line II, Blue Green Line II, Green Line II, Yellow Green Line II",
-                    "year":"1979 - 2017",
-                    "medium":"screen print",
-                    "dimentions":"18 x 18 inches"
-                },
- 		        {
-                    "image_name":"/globe.svg",
-                    "title":"League of Women Voters",
-                    "year":"1969",
-                    "medium":"Color screenprint on paper, edition of 144, Edition number 10/144",
-                    "dimentions":"8-1/2 x 37-1/4 inches"
-                },
-		        {
-                    "image_name":"/globe.svg",
-                    "title":"Translumina – Yellow and Orange on Light Blue (No. 991)",
-                    "year":"1992",
-                    "medium":"Acrylic on canvas",
-                    "dimentions":"54 x 54 inches"
-                },
-		        {
-                    "image_name":"/globe.svg",
-                    "title":"Translumina with Deep Blue (No. 839)",
-                    "year":"1986",
-                    "medium":"Acrylic on canvas",
-                    "dimentions":"48 x 48 inches"
-                },
-                {
-                    "image_name":"/globe.svg",
-                    "title":"Midnight Blue",
-                    "year":"1979 - 2016",
-                    "medium":"Acrylic on canvas",
-                    "dimentions":"48 x 48 inches"
-                },
-                {
-                    "image_name":"/globe.svg",
-                    "title":"Red Edged Green Square",
-                    "year":"1977 - 2017",
-                    "medium":"Acrylic on canvas",
-                    "dimentions":"36 x 36 inches"
-                },
-                {
-                    "image_name":"/globe.svg",
-                    "title":"Radiant Blue",
-                    "year":"1977 - 2017",
-                    "medium":"Acrylic on canvas",
-                    "dimentions":"30 x 30 inches"
-                },
-                {
-                    "image_name":"/globe.svg",
-                    "title":"Temple of the Summer Evening",
-                    "year":"1983-2018",
-                    "medium":"Acrylic on canvas",
-                    "dimentions":"60 x 48 inches"
-                },
-                {
-                    "image_name":"/globe.svg",
-                    "title":"Temple of Green Mist",
-                    "year":"1983-2019",
-                    "medium":"Acrylic on canvas",
-                    "dimentions":"84 x 60 inches"
-                },
-                {
-                    "image_name":"/globe.svg",
-                    "title":"Temple of Yellow Light II",
-                    "year":"1984",
-                    "medium":"Acrylic on canvas",
-                    "dimentions":"17 x 12 inches"
-        	    },
-		        {
-                    "image_name":"/globe.svg",
-                    "title":"Translumina - Marriage of Silver and Gold",
-                    "year":"1992",
-                    "medium":"Enamel on wood construction",
-                    "dimentions":"110 x 116 inches"
-                }
            	],
             "exhibitions":[
                 {
@@ -501,7 +501,1127 @@
                     "slug":"seeing_red"
                 }
             ]
+        },
+        {
+            "name":"Nicolas Carone",
+            "slug":"nicolas_carone",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (W-1816-S)",
+                    "year":"1959",
+                    "medium":"Oil and pencil on board",
+                    "dimentions":"27-1/2 x 41-1/8 inches"
+                },
+ 		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (W-1383-S)",
+                    "year":"1966",
+                    "medium":"Oil and pencil on board",
+                    "dimentions":"28 x 41-1/4 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (W-1357-S)",
+                    "year":"1965",
+                    "medium":"Oil and pencil on board",
+                    "dimentions":"26 x 40 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (W-1351-S)",
+                    "year":"1965",
+                    "medium":"Oil and pencil on board",
+                    "dimentions":"26 x 40 inches"
+ 		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Umbrian Head in Stone 1",
+                    "year":"1979",
+                    "medium":"Italian field stone",
+                    "dimentions":"9-1/2 x 6-1/2 x 8 inches"
+            	},
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Umbrian Head in Stone 3",
+                    "year":"1981",
+                    "medium":"Italian field stone",
+                    "dimentions":"11-1/2 x 7 x 6-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Umbrian Head in Stone 11",
+                    "year":"1986",
+                    "medium":"Italian field stone",
+                    "dimentions":"7-1/2 x 11 x 7 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (W-1479-S)",
+                    "year":"1983",
+                    "medium":"Oil on board",
+                    "dimentions":"14-1/2 x 13 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Young Man",
+                    "year":"1985",
+                    "medium":"Oil on panel",
+                    "dimentions":"25 x 19 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"2008",
+                    "medium":"Acrylic on paper",
+                    "dimentions":"27-1/2 x 38 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Lost Tribe",
+                    "year":"2007",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"84 x 119-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"What Matters",
+                    "year":"2008",
+                    "medium":"Acrylic on tarpaulin",
+                    "dimentions":"54 x 72 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Cadenza",
+                    "year":"2008",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"58 x 71 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"High Spirit",
+                    "year":"2008",
+                    "medium":"Acrylic on tarpaulin",
+                    "dimentions":"30 x 40 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"High Wire",
+                    "year":"2008",
+                    "medium":"Acrylic on tarpaulin",
+                    "dimentions":"48 x 60 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Off The Chart",
+                    "year":"2009",
+                    "medium":"Acrylic on tarpaulin",
+                    "dimentions":"33 x 42 inches"
+                }
+           	]
+        },
+        {
+            "name":"Edward Dugmore",
+            "slug":"edward_dugmore",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Series X #2",
+                    "year":"1969",
+                    "medium":"Oil on linen",
+                    "dimentions":"78-1/4 x 62 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled #9 (Icarus)",
+                    "year":"1969",
+                    "medium":"Oil on linen",
+                    "dimentions":"78-1/4 x 62 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled #4",
+                    "year":"1969",
+                    "medium":"Oil on canvas",
+                    "dimentions":"74 x 62-3/4 inches"
+ 		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"1961-F",
+                    "year":"1961",
+                    "medium":"Oil on canvas",
+                    "dimentions":"104-1/4 x 144-3/4 inches"
+           	    },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"1961 B-2",
+                    "year":"1961",
+                    "medium":"Oil on canvas",
+                    "dimentions":"79-5/8 x 101-1/4 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled B-II,",
+                    "year":"1972",
+                    "medium":"Oil on canvas",
+                    "dimentions":"86 x 54 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"1962-NC",
+                    "year":"1962",
+                    "medium":"Oil on canvas",
+                    "dimentions":"78-3/8 x 91 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"1961-B",
+                    "year":"1961",
+                    "medium":"Oil on canvas",
+                    "dimentions":"101-3/4 x 115-3/4 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled BR #7",
+                    "year":"1972",
+                    "medium":"Acrylic and oil crayon on paper",
+                    "dimentions":"13-3/4 x 11 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled 8PCS #22",
+                    "year":"1972",
+                    "medium":"Acrylic and pencil on paper",
+                    "dimentions":"29 x 23 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled B #12",
+                    "year":"1972",
+                    "medium":"Acrylic and crayon on paper",
+                    "dimentions":"13-3/4 x 11 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled B #3",
+                    "year":"1972",
+                    "medium":"Acrylic and crayon on paper",
+                    "dimentions":"13-3/4 x 11 inches"
+                }
+            ]
+        },
+        {
+            "name":"Leah Durner",
+            "slug":"leah_durner",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Left: Silverbluegrey pour, Right: Silverbluegreyviolet pour",
+                    "year":"2017-2019",
+                    "medium":"Poured latex enamel on canvas",
+                    "dimentions":"48 x 60 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silvergreyvioletblue pour",
+                    "year":"2019",
+                    "medium":"Poured latex enamel on canvas",
+                    "dimentions":"48 x 60 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silvervioletpalevioletgrey pour",
+                    "year":"2019",
+                    "medium":"Poured latex enamel on canvas",
+                    "dimentions":"48 x 60 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (Saturday 11 January 2003)",
+                    "year":"2003",
+                    "medium":"Acrylic on paper",
+                    "dimentions":"36 x 58-1/2 inches"
+           	    },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"2003",
+                    "medium":"Gouache on paper",
+                    "dimentions":"35-3/4 x 50-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Morning Gate",
+                    "year":"2003",
+                    "medium":"Acrylic on paper",
+                    "dimentions":"50 x 63 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Sunday 18 February 2007",
+                    "year":"2007",
+                    "medium":"Acrylic on paper",
+                    "dimentions":"60 x 43-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Cream 1",
+                    "year":"2011",
+                    "medium":"Gouache on cream Fabriano Tiziano colored paper",
+                    "dimentions":"39 x 27-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Lemon 1",
+                    "year":"2008",
+                    "medium":"Gouache on cream Fabriano Tiziano colored paper",
+                    "dimentions":"39 x 27-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Lemon 2",
+                    "year":"2008",
+                    "medium":"Gouache on cream Fabriano Tiziano colored paper",
+                    "dimentions":"39 x 27-1/2 inches"
+		        },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Seabright 1",
+                    "year":"2011",
+                    "medium":"Gouache on cream Fabriano Tiziano colored paper",
+                    "dimentions":"39 x 27-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Seabright 2",
+                    "year":"2011",
+                    "medium":"Gouache on cream Fabriano Tiziano colored paper",
+                    "dimentions":"39 x 27-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Seabright 4",
+                    "year":"2015",
+                    "medium":"Gouache on cream Fabriano Tiziano colored paper",
+                    "dimentions":"39 x 27-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Billiard Green 1",
+                    "year":"2011",
+                    "medium":"Gouache on cream Fabriano Tiziano colored paper",
+                    "dimentions":"39 x 27-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Billiard Green 2",
+                    "year":"2011",
+                    "medium":"Gouache on cream Fabriano Tiziano colored paper",
+                    "dimentions":"39 x 27-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Grove",
+                    "year":"2000",
+                    "medium":"Acrylic and oil on canvas",
+                    "dimentions":"60 x 66 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Up from the Ground",
+                    "year":"2000",
+                    "medium":"Acrylic and oil on canvas",
+                    "dimentions":"60 x 66 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silverbluegrey pour",
+                    "year":"2019",
+                    "medium":"Poured latex enamel on canvas",
+                    "dimentions":"48 x 60 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silverbluegreyviolet pour",
+                    "year":"2017",
+                    "medium":"Poured latex enamel on canvas",
+                    "dimentions":"48 x 60 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silvervioletpalevioletgrey pour",
+                    "year":"2019",
+                    "medium":"Poured latex enamel on canvas",
+                    "dimentions":"48 x 60 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silvergreyvioletblue pour",
+                    "year":"2019",
+                    "medium":"Poured latex enamel on canvas",
+                    "dimentions":"48 x 60 inches"
+                }
+
+           	]
+        },
+        {
+            "name":"Friedel Dzubas",
+            "slug":"friedel_dzubas",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Strindberg",
+                    "year":"1983",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"49 x 101 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Jungleskin",
+                    "year":"1959",
+                    "medium":"Magna acrylic on canvas",
+                    "dimentions":"76 x 66 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Moonhunt",
+                    "year":"1958",
+                    "medium":"Oil on canvas",
+                    "dimentions":"96 x 46-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Crossing",
+                    "year":"1962",
+                    "medium":"Oil on canvas",
+                    "dimentions":"29 x 29 inches"
+           	    },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Entrance",
+                    "year":"1970",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"44 x 45 inches"
+                }
+           	]
+        },
+        {
+            "name":"Helen Frankenthaler",
+            "slug":"helen_frankenthaler",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Brittany - Normandy",
+                    "year":"1973",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"35 x 35 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Moon Spin",
+                    "year":"1975",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"86-1/2 x 32-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"1965",
+                    "medium":"Gouache on Strathmore paper",
+                    "dimentions":"28-3/4 x 22-3/4 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Seeing the Moon on a Hot Summer Day",
+                    "year":"1987",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"103 x 64 inches"
+                }
+           	]
+        },
+        {
+            "name":"Shirley Goldfarb",
+            "slug":"shirley_goldfarb",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled, 1961",
+                    "year":"1961",
+                    "medium":"Gouache on paper",
+                    "dimentions":"23 x 17-1/2 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (73)",
+                    "year":"1961",
+                    "medium":"Gouache on paper",
+                    "dimentions":"17-1/2 x 23 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"1962",
+                    "medium":"Oil on canvas",
+                    "dimentions":"7 x 5-1/2 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (SG42515)",
+                    "year":"1962",
+                    "medium":"Oil on paper",
+                    "dimentions":"5 x 8 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (SG42521)",
+                    "year":"1962",
+                    "medium":"Oil on paper",
+                    "dimentions":"8 x 5 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (69)",
+                    "year":"1962",
+                    "medium":"Oil on paper",
+                    "dimentions":"5 x 45 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled (68)",
+                    "year":"1961",
+                    "medium":"Oil on paper",
+                    "dimentions":"5 x 7-7/8 inches"
+                }
+           	]
+        },
+        {
+            "name":"Cleve Gray",
+            "slug":"cleve_gray",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Les Jours S'en Vont",
+                    "year":"1963",
+                    "medium":"Oil on canvas",
+                    "dimentions":"70 x 50 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silver Spring",
+                    "year":"1967",
+                    "medium":"Acrylic on canvas with aluminum paint",
+                    "dimentions":"82 x 78 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silver Ceres",
+                    "year":"1967",
+                    "medium":"Acrylic on canvas with aluminum paint",
+                    "dimentions":"82 x 80 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silver Song",
+                    "year":"1967",
+                    "medium":"Acrylic on canvas with aluminum paint and bronze",
+                    "dimentions":"101 x 80 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Three",
+                    "year":"1989",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"57 x 79 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Reach (Triptych)",
+                    "year":"1981-1995",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"72 x 108 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Considering All Possible Worlds #4",
+                    "year":"1991",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"50 x 70 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Hopkin's Comet,",
+                    "year":"1990",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"40 x 60 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Floating Red",
+                    "year":"1990",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"60 x 60 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Considering All Possible Worlds #13",
+                    "year":"1991",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"50 x 70 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Air Things Wear That Build This World",
+                    "year":"1990",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"60 x 60 inches"
+                }
+           	]
+        },
+        {
+            "name":"Al Held",
+            "slug":"al_held",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"PL 49",
+                    "year":"1960",
+                    "medium":"India ink of paper",
+                    "dimentions":"22-5/8 x 35 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Echo",
+                    "year":"1966",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"84 x 72 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"60 S-2 AP",
+                    "year":"1964-1965",
+                    "medium":"Ink and acrylic on paper mounted on board",
+                    "dimentions":"15 x 39-7/8 inches"
+		        },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"1968",
+                    "medium":"Silkscreen ink on paper",
+                    "dimentions":"34-3/8 x 24-1/2 inches"
+                }
+           	]
+        },
+        {
+            "name":"Kenneth Noland",
+            "slug":"kenneth_noland",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Net",
+                    "year":"1999",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"32 x 32 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Circle II (red)",
+                    "year":"1978",
+                    "medium":"Unique handmade paper",
+                    "dimentions":"21 x 32 inches"
+                }
+           	]
+        },
+        {
+            "name":"Jules Olitski",
+            "slug":"jules_olitski",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Contemplations III",
+                    "year":"1980",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"50-1/2 x 91 inches"
+                }
+           	]
+        },
+        {
+            "name":"Joel Perlman",
+            "slug":"joel_perlman",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Wonder Wheel",
+                    "year":"2015-2016",
+                    "medium":"Powder coated steel",
+                    "dimentions":"83 x 83 x 27 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Round East",
+                    "year":"2023",
+                    "medium":"Welded steel",
+                    "dimentions":"58 x 40 x 16 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Big Round II",
+                    "year":"2019",
+                    "medium":"Steel",
+                    "dimentions":"87 x 55 x 34 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Happy Black",
+                    "year":"2022",
+                    "medium":"Cast Bronze",
+                    "dimentions":"24 x 18 x 8 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Double Black",
+                    "year":"2020",
+                    "medium":"Bronze",
+                    "dimentions":"24 x 8 x 8 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Black Hat II",
+                    "year":"2022",
+                    "medium":"Cast bronze",
+                    "dimentions":"21 x 11 x 11 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silver Twister",
+                    "year":"2019",
+                    "medium":"Stainless Steel",
+                    "dimentions":"24 x 13 x 12 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Matchless",
+                    "year":"2023",
+                    "medium":"Welded steel",
+                    "dimentions":"36 x 33 x 12 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Grey Gear",
+                    "year":"2012-2018",
+                    "medium":"Bronze",
+                    "dimentions":"30 x 22 x 11 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Broadway",
+                    "year":"2016",
+                    "medium":"Powder coated steel",
+                    "dimentions":"100 x 48 x 25 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Big Boy",
+                    "year":"2019",
+                    "medium":"Stainless steel",
+                    "dimentions":"30 x 25 x 10 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Copper Grey/Green",
+                    "year":"2018",
+                    "medium":"Copper",
+                    "dimentions":"26 x 24 x 9 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silver Glass",
+                    "year":"2018",
+                    "medium":"Stainless steel",
+                    "dimentions":"27 x 13 x 12 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silver Streak",
+                    "year":"2017",
+                    "medium":"Powder coated steel",
+                    "dimentions":"15 x 16 x 5 inches"
+                }
+           	]
+        },
+        {
+            "name":"Judy Pfaff",
+            "slug":"judy_pfaff",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Helen",
+                    "year":"2014",
+                    "medium":"Melted plastic, paper, pigmented expanded foam, acrylic and resin",
+                    "dimentions":"30 x 26 x 10 inches"
+		        },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Belle Isle",
+                    "year":"2014",
+                    "medium":"Melted plastic, paper, pigmented expanded foam, acrylic and resin",
+                    "dimentions":"50 x 61 x 32 inches"
+		        },
+                {
+                    "image_name":"/globe.svg",
+                    "title":"My Second Dream",
+                    "year":"2012",
+                    "medium":"Expanded foam, steel wires, fluorescent light",
+                    "dimentions":"51 x 112 x 25 inches"
+                }
+           	]
+        },
+        {
+            "name":"Larry Poons",
+            "slug":"larry_poons",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"1972",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"10 x 114-1/2 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"1972",
+                    "medium":"Acrylic on canvas",
+                    "dimentions":"38-1/4 x 62-3/8 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"1979-1980",
+                    "medium":"Silkscreen print on Arches paper",
+                    "dimentions":"35-3/4 x 25 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"1979-1980",
+                    "medium":"Silkscreen print on Arches paper",
+                    "dimentions":"35-3/4 x 25 inches"
+                }
+           	]
+        },
+        {
+            "name":"David Row",
+            "slug":"david_row",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Homage to J.A.",
+                    "year":"2021",
+                    "medium":"Oil on linen on panel",
+                    "dimentions":"15 x 26 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Terra Rose",
+                    "year":"2019",
+                    "medium":"Oil on panel",
+                    "dimentions":"15 x 26 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Cartography",
+                    "year":"2024",
+                    "medium":"Oil on canvas mounted to board",
+                    "dimentions":"42 x 38 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Elektor",
+                    "year":"2013",
+                    "medium":"Oil on canvas",
+                    "dimentions":"63 x 83 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Counter Clockwise",
+                    "year":"2018",
+                    "medium":"Oil on canvas",
+                    "dimentions":"65 x 110 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Time lapse",
+                    "year":"2018",
+                    "medium":"Oil on canvas",
+                    "dimentions":"40 x 60 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Shift",
+                    "year":"2018",
+                    "medium":"Oil on canvas",
+                    "dimentions":"40 x 60 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Nightlight",
+                    "year":"2018",
+                    "medium":"Oil on canvas",
+                    "dimentions":"26 x 37 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Untitled",
+                    "year":"1992",
+                    "medium":"Oil and wax on canvas",
+                    "dimentions":"49 x 54 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Bite Your Tongue",
+                    "year":"2003",
+                    "medium":"Oil on canvas",
+                    "dimentions":"30 x 40 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Verde",
+                    "year":"2015",
+                    "medium":"Oil on canvas",
+                    "dimentions":"22-1/2 x 31 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Night Sky",
+                    "year":"2015",
+                    "medium":"Oil on canvas",
+                    "dimentions":"32 x 31 inches"
+                }
+           	]
+        },
+        {
+            "name":"Kikuo Saito",
+            "slug":"kikuo_saito",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Red Alice",
+                    "year":"1998",
+                    "medium":"Oil on canvas",
+                    "dimentions":"37 x 44-5/8 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Gray Alphabet",
+                    "year":"2000",
+                    "medium":"Oil on canvas",
+                    "dimentions":"37 x 48-3/4 inches"
+                }
+           	]
+        },
+        {
+            "name":"Frank Stella",
+            "slug":"frank_stella",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Zolder",
+                    "year":"1983",
+                    "medium":"Acrylic and enamel on aluminum",
+                    "dimentions":"128 x 112-1/4 x 23 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Zolder (detail)",
+                    "year":"1983",
+                    "medium":"Acrylic and enamel on aluminum",
+                    "dimentions":" "
+                }
+           	]
+        },
+        {
+            "name":"George Sugarman",
+            "slug":"george_sugarman",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"Orange, Blue and Black",
+                    "year":"1968-1970",
+                    "medium":"Acrylic on wood",
+                    "dimentions":"50 x 65 x 19-1/2 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Trio",
+                    "year":"1969-1970",
+                    "medium":"Acrylic on laminated wood",
+                    "dimentions":"24 x 78-3/4 x 31 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Threesome",
+                    "year":"1968-1969",
+                    "medium":"Acrylic on wood",
+                    "dimentions":"84-3/4 x 156 x 120 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Three Black Elements",
+                    "year":"1990",
+                    "medium":"Acrylic on aluminum",
+                    "dimentions":"65 x 34-1/2 x 10-1/2 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Yellow Diagonal",
+                    "year":"1988",
+                    "medium":"Acrylic on aluminum",
+                    "dimentions":"41 xv50 x 20 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Flourish",
+                    "year":"1991",
+                    "medium":"Acrylic on aluminum",
+                    "dimentions":"27-1/2 x 15 x 20 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"Silent Welcome",
+                    "year":"1987-1988",
+                    "medium":"Acrylic on aluminum",
+                    "dimentions":"28 x 16 x 14 inches"
+                }
+           	]
+        },
+        {
+            "name":"Other Artists",
+            "slug":"other_artists",
+            "biography":"some text about this dude",
+            "image_name":"/globe.svg",
+            "works":[
+                {
+                    "image_name":"/globe.svg",
+                    "title":"JOSEF ALBERS, WLS VIII",
+                    "year":"1966",
+                    "medium":"Portfolio of 8 three-color aluminum plate lithographs on handout Arches Cover paper, Edition of 125",
+                    "dimentions":"20-1/2 x 20-1/2 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"LARRY BELL, R21",
+                    "year":"6/5/07",
+                    "medium":"Mixed media on paper, Signed, titled and dated verso",
+                    "dimentions":"41 x 41 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"PAT PASSLOF, Coliseum",
+                    "year":"1955",
+                    "medium":"Oil on paper mounted on canvas",
+                    "dimentions":"17 x 22 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"PAT PASSLOF, Untitled",
+                    "year":"1959",
+                    "medium":"Oil on paper mounted on canvas",
+                    "dimentions":"18 x 24 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"LEON POLK SMITH, 1",
+                    "year":"1958",
+                    "medium":"Paper collage",
+                    "dimentions":"25 x 19 inches, Framed: 35-1/2 x 29-1/2"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"LEON POLK SMITH, 2",
+                    "year":"1955",
+                    "medium":"Paper collage",
+                    "dimentions":"14 x 10 inches, Framed: 15-1/2 x 11-1/2"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"LEON POLK SMITH, 3",
+                    "year":"1955",
+                    "medium":"Paper collage",
+                    "dimentions":"14 x 10 inches, Framed: 15-1/2 x 11-1/2"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"LEON POLK SMITH, 4",
+                    "year":"1955",
+                    "medium":"Paper on paper",
+                    "dimentions":"14 x 10 inches, Framed: 15-1/2 x 11-1/2"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"LEON POLK SMITH, 5",
+                    "year":"1955",
+                    "medium":"Paper on paper",
+                    "dimentions":"14 x 10 inches, Framed: 15-1/2 x 11-1/2"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"ROBERT RAUSHENBERG, Autobiography",
+                    "year":"1968",
+                    "medium":"Lithograph, Edition of 2000",
+                    "dimentions":"67 x 144 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"FAITH RINGGOLD, Dancing on the George Washington Bridge II",
+                    "year":"2020",
+                    "medium":"Silkscreen on silk with pieced fabric border, Edition 17 of 24",
+                    "dimentions":"52 x 49 inches"
+                },
+		        {
+                    "image_name":"/globe.svg",
+                    "title":"JAMES ROSENQUIST, Collage for Untitled (Lily)",
+                    "year":"1985",
+                    "medium":"Mixed media collage, two sided, signed and dated",
+                    "dimentions":"11-1/4 x 8-1/2 inches"
+                }
+           	]
         }
+        
+        
     ],
     "catalogues":[
         {
