@@ -16,6 +16,8 @@ function ArtistContent (display) {
     switch (display.display) {
         case display="biography":
             let bio = artist.biography;
+            console.log(bio);
+            if(bio != undefined){
             const bio_paragraphs = bio.split("<br />");
             let temp_content = <p></p>;
             let linebreak = <br />;
@@ -35,6 +37,11 @@ function ArtistContent (display) {
                 </ul>
             </div>
         )
+        }else{
+            content = (
+                <div></div>
+            )
+        }
             break;//bio
 
         case display="videos":
