@@ -33,3 +33,24 @@ li{
     max-height: 25vw;
     max-width: 25vw;
 }
+
+.second_level_diaply_menu{
+    display:grid;
+    grid-template-columns: 25vw 75vw;
+
+}
+/* .second_level_diaply_menu{
+    position:sticky;
+    top:0;
+} */
+/* .artist-content{
+    content on the right side after clicking arist
+} */
+.second-level-content-display{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.second-level-content-display div{
+    padding:20px;
+    margin:20px;
+}

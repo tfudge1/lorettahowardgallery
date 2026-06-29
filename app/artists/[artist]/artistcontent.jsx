@@ -15,9 +15,24 @@ function ArtistContent (display) {
     }
     switch (display.display) {
         case display="biography":
+            let bio = artist.biography;
+            const bio_paragraphs = bio.split("<br />");
+            let temp_content = <p></p>;
+            let linebreak = <br />;
+            console.log(bio_paragraphs[0]);
+            console.log(bio_paragraphs[1]);
+            for(let i =0; i < bio_paragraphs.length; i++){
+                temp_content = temp_content + bio_paragraphs[i];
+                temp_content = temp_content + linebreak;
+            }
+            
             content =  (
             <div>
-                <p>{artist.biography}</p>
+                <ul>
+                    {bio_paragraphs.map((item, index) => (
+                        <li key={index}>{item}</li>
+                    ))}
+                </ul>
             </div>
         )
             break;//bio
@@ -131,7 +146,7 @@ function ArtistContent (display) {
     
         default:
             content = (
-            <div>
+            <div className='second-level-content-display'>
                 {artist.works.map((work) => (
                     <div key={work.title}>
                         <Image 
