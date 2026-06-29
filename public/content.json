@@ -42,6 +42,7 @@
             "press":[
                 {
                     "title":"the wonderus life of second example artist",
+                    "image_name":"/SpecificFormsReviewinTwoCoatsofPaint.jpeg",
                     "year":"2023",
                     "description":"this is a newspaper article",
                     "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
@@ -142,9 +143,24 @@
                     "dimentions":"110 x 116 inches"
                 }
            	],
+            "videos":[
+                {
+                    "url":"https://www.youtube.com/embed/E9LDG-ceMKM?si=rFcuvFpnDXnx_CxY",
+                    "description":"Richard Anuszkiewicz's work featured in exhibition Spilling Over: Painting Color in the 1960s - Mar 29–Aug 2019"
+                }
+            ],
             "exhibitions":[
                 {
                     "slug":"seeing_red"
+                }
+            ],
+            "press":[
+                {
+                    "title":"Specific Forms Review in Two Coats of Paint",
+                    "image_name":"/SpecificFormsReviewinTwoCoatsofPaint.jpeg",
+                    "year":"2020",
+                    "description":"On its own terms: “Specific Forms” at Loretta Howard - Two Coats of Paint, contributed by Kim Uchiyama",
+                    "url":"https://twocoatsofpaint.com/2020/02/on-its-own-terms-specific-forms-at-loretta-howard.html"
                 }
             ]
         },
@@ -228,6 +244,43 @@
             "exhibitions":[
                 {
                     "slug":"seeing_red"
+                }
+            ],
+            "videos":[
+                {
+                    "url":"https://player.vimeo.com/video/530450313?h=6c51e7d47f",
+                    "description":" "
+                },
+                {
+                    "url":"https://www.youtube.com/embed/SCGEL-nmfO4?si=w4dbS7FWIUHiNQ5q",
+                    "description":" "
+                },
+                {
+                    "url":"https://www.youtube.com/embed/Pr3q3HpZfck?si=QPrTDj-f1zJnsZoc",
+                    "description":" "
+                }
+            ],
+            "press":[
+                {
+                    "title":"Abbeville -  Ronald Bladen Monograph Press Release",
+                    "image_name":"/Abbeville-RonaldBladenMonographPressRelease.jpeg",
+                    "year":"2019",
+                    "description":"The first monograph on a pivotal figure of postwar American art",
+                    "url":"/Abbeville-PR.pdf"
+                },
+                {
+                    "title":"On-Verge Review of Ronald Bladen",
+                    "image_name":"/On-VergeReviewofRonaldBladen.jpeg",
+                    "year":"2012",
+                    "description":"Ronald Bladen was making abstract painting and an important voice in the New York School before creating his well-know minimal sculpture.",
+                    "url":" "
+                },
+                {
+                    "title":"The Sun Review of Ronald Bladen",
+                    "image_name":"/TheSunReviewofRonaldBladen.jpeg",
+                    "year":"2012",
+                    "description":"An exhibition of paintings by Ronald Bladen opened April 19 at Loretta Howard Gallery with a curious backstory.",
+                    "url":"https://www.nysun.com/arts/ronald-bladen-new-york-paintings-1955-1962/87783"
                 }
             ]
         },
@@ -620,7 +673,41 @@
                     "medium":"Acrylic on tarpaulin",
                     "dimentions":"33 x 42 inches"
                 }
-           	]
+           	],
+            "videos":[
+                {
+                    "url":"https://player.vimeo.com/video/340446057?h=691ab0643f",
+                    "description":" "
+                },
+                {
+                    "url":"https://www.youtube.com/embed/_ylb_QNgyys?si=b5IF4cQogbs2jceU",
+                    "description":" "
+                }
+                
+            ],
+            "press":[
+                {
+                    "title":"The Mantle Review - The Late Paintings of Nicolas Carone",
+                    "image_name":"/TheMantleReview-TheLatePaintingsofNicolasCarone.jpeg",
+                    "year":"2019",
+                    "description":"Around 2007 Nicolas Carone, then 90 years old and legally blind, underwent an extraordinary creative reawakening that lasted until his death in 2010. The paintings Carone produced during these final three years of his long and very active artistic career are instantly recognizable as a group, but remarkably individuated as specific pieces.",
+                    "url":"https://www.themantle.com/arts-and-culture/shaking-solitary-i"
+                },
+                {
+                    "title":"Hamptons Art Hub Review - Nicolas Carone",
+                    "image_name":"/HamptonsArtHubReview-NicolasCarone.jpeg",
+                    "year":"2019",
+                    "description":"Peter Malone presents a thoughtful in-depth review of Nicolas Carone's late paintings as seen in Nicolas Carone: What Matters.",
+                    "url":"https://hamptonsarthub.com/2019/07/17/reviews-art-review-nicolas-carones-late-abstractions-give-clues-to-what-matters/"
+                },
+                {
+                    "title":"Brooklyn Rail Review - Nicolas Carone - What Matters",
+                    "image_name":"/BrooklynRailReview-NicolasCarone-WhatMatters.jpeg",
+                    "year":"2019",
+                    "description":"What happens when we embrace mistakes as eternal mutations? Apparition fractures rationality... by Phong Bui",
+                    "url":"https://brooklynrail.org/2019/07/artseen/Nicolas-Carone-What-Matters"
+                }
+            ]
         },
         {
             "name":"Edward Dugmore",
@@ -868,7 +955,13 @@
                     "dimentions":"48 x 60 inches"
                 }
 
-           	]
+           	],
+            "videos":[
+                {
+                    "url":"https://player.vimeo.com/video/408563478?h=e6da9d64ac",
+                    "description":" "
+                }
+            ]
         },
         {
             "name":"Friedel Dzubas",
@@ -1004,7 +1097,13 @@
                     "medium":"Oil on paper",
                     "dimentions":"5 x 7-7/8 inches"
                 }
-           	]
+           	],
+            "videos":[
+                {
+                    "url":"https://player.vimeo.com/video/518186569?h=00a264a26b",
+                    "description": " "
+                }
+            ]
         },
         {
             "name":"Cleve Gray",
@@ -1089,7 +1188,26 @@
                     "medium":"Acrylic on canvas",
                     "dimentions":"60 x 60 inches"
                 }
-           	]
+           	],
+            "videos":[
+                {
+                    "url":"https://player.vimeo.com/video/489105862?h=67f9c34753",
+                    "description": " "
+                },
+                {
+                    "url": "https://player.vimeo.com/video/451531919?h=3331516c97",
+                    "description": " "
+                }
+            ],
+            "press":[
+                {
+                    "title":"Bringing Cleve Gray’s Threnody to the Cathedral of St. John the Divine",
+                    "image_name":"/BringingCleveGray’sThrenodytotheCathedralofSt.JohntheDivine.jpeg",
+                    "year":"2021",
+                    "description":"An initiative to bring the Threnody murals to the Cathedral of St. John the Divine in New York City is underway for 2021. The Cathedral, a sacred architectural landmark, is renowned for presenting significant works at the intersection of art, faith, and the struggle for human rights.",
+                    "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
+                }
+            ]
         },
         {
             "name":"Al Held",
@@ -1125,7 +1243,23 @@
                     "medium":"Silkscreen ink on paper",
                     "dimentions":"34-3/8 x 24-1/2 inches"
                 }
-           	]
+           	],
+            "press":[
+                {
+                    "title":"Brooklyn Rail - Specific Forms",
+                    "image_name":"/BrooklynRail-SpecificForms.jpeg",
+                    "year":"2020",
+                    "description":"Art Seen - Specific Forms at Loretta Howard Gallery - Contributed by Mary Ann Caws",
+                    "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
+                },
+                {
+                    "title":"Two Coats of Paint - Specific Forms",
+                    "image_name":"/TwoCoatsofPaint-SpecificForms.jpeg",
+                    "year":"2020",
+                    "description":"On its own terms: “Specific Forms” at Loretta Howard - Two Coats of Paint, contributed by Kim Uchiyama",
+                    "url":"https://www.twocoatsofpaint.com/2020/02/on-its-own-terms-specific-forms-at-loretta-howard.html?utm_source=MadMimi&utm_medium=email&utm_content=Specific+Objects%2C+Kim+Uchiyama%2C+Saul+Ostrow%2C+1970s%2C+politics%2C+social+media+services%2C+more&utm_campaign=20200204_m156801216_Feb+4%2C+2020&utm_term=On+its+own+terms_3A+_E2_80_9CSpecific+Forms_E2_80_9D+at+Loretta+Howard"
+                }
+            ]
         },
         {
             "name":"Kenneth Noland",
@@ -1268,7 +1402,30 @@
                     "medium":"Powder coated steel",
                     "dimentions":"15 x 16 x 5 inches"
                 }
-           	]
+           	],
+            "videos":[
+                {
+                    "url":"https://www.youtube.com/embed/Q7kAGF3hS3s?si=hPqCL_wO-6bq9a5Y",
+                    "description":" "
+                },
+                {
+                    "url":"https://player.vimeo.com/video/433420267?h=1983d93684",
+                    "description": " "
+                },
+                {
+                    "url":"https://player.vimeo.com/video/481775447?h=e43fe8155d",
+                    "description":" "
+                }
+            ],
+            "press":[
+                {
+                    "title":"Joel Perlman - Commission for The Scalpel, London. To be installed January 2019.",
+                    "image_name":"/JoelPerlman-CommissionforTheScalpel,LondonTobeinstalledJanuary2019.jpeg",
+                    "year":"2019",
+                    "description":"Roundhouse, 2018, Stainless Steel, 15' feet.",
+                    "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
+                }
+            ]
         },
         {
             "name":"Judy Pfaff",

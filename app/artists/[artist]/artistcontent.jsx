@@ -29,7 +29,7 @@ function ArtistContent (display) {
             }
             
             content =  (
-            <div>
+            <div className='second-level-content-display'>
                 <ul>
                     {bio_paragraphs.map((item, index) => (
                         <li key={index}>{item}</li>
@@ -45,10 +45,12 @@ function ArtistContent (display) {
             break;//bio
 
         case display="videos":
+            console.log(artist.videos);
+            if(artist.videos != undefined){
             content =  (
-            <div>
+            <div className='second-level-content-display'>
                 {artist.videos.map((video) => (
-                    <div key={video.description}>
+                    <div key={video.url}>
                         <iframe src={video.url} allowFullScreen />
                         <p>{video.description}</p>
                     </div>
@@ -56,10 +58,13 @@ function ArtistContent (display) {
                 
             </div>
         )
+        }else{
+            content = (<div></div>)
+        }
             break;//videos
 
         case display="exhibitions":
-
+            if(artist.exhibitions != undefined){
             let display_exhibitions_list = (<p></p>);
             for(let artists_exhibitions = 0; artists_exhibitions < artist.exhibitions.length; artists_exhibitions++){
                 let current_artist_slug = artist.exhibitions[artists_exhibitions];
@@ -86,14 +91,18 @@ function ArtistContent (display) {
             }
             
             content =  (
-            <div>
+            <div className='second-level-content-display'>
                 {display_exhibitions_list}
             </div>
             )
+        }else{
+            content = (<div></div>)
+        }
 
             break;//exhibitions
 
         case display="catalouges":
+            if(artist.catalogues != undefined){
 
             let display_catalouges_list = (<p></p>);
             console.log("artist.catalogues.length: " + artist.catalogues);
@@ -124,15 +133,19 @@ function ArtistContent (display) {
             }
             
             content =  (
-            <div>
+            <div className='second-level-content-display'>
                 {display_catalouges_list}
             </div>
             )
+        }else{
+            content = (<div></div>)
+        }
             break;//catalouges
 
         case display="press":
+            if(artist.press != undefined){
             content =  (
-            <div>
+            <div className='second-level-content-display'>
                 {artist.press.map((press) => (
                     <div key={press.title}>
                         <Image 
@@ -149,6 +162,9 @@ function ArtistContent (display) {
                   ))}
             </div>
         )
+        }else{
+            content = (<div></div>);
+        }
             break;//press
     
         default:
