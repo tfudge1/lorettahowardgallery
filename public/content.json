@@ -1490,7 +1490,16 @@
                     "medium":"Silkscreen print on Arches paper",
                     "dimentions":"35-3/4 x 25 inches"
                 }
-           	]
+           	],
+            "press":[
+                {
+                    "title":"The Wall Street Journal - A Crush That Led To a Brush - Larry Poons",
+                    "image_name":"/TheWallStreetJournal-ACrushThatLedToaBrush-LarryPoons.jpg",
+                    "year":"2020",
+                    "description":"The Wall Street Journal article about Larry Poons, featuring \"Rock and Roll\" which is currently on view for Specific Forms",
+                    "url":"https://www.wsj.com/articles/a-high-school-crush-inspired-larry-poonss-first-work-of-art-11583249473"
+                }
+            ]
         },
         {
             "name":"David Row",
@@ -1582,7 +1591,61 @@
                     "medium":"Oil on canvas",
                     "dimentions":"32 x 31 inches"
                 }
-           	]
+           	],
+            "press":[
+                {
+                    "title":"ArtCritical Review of David Row: Counter Clockwise",
+                    "image_name":"/ArtCriticalReviewofDavidRow-CounterClockwise.jpg",
+                    "year":"2018",
+                    "description":"Noughts and Crosses: David Row at Loretta Howard",
+                    "url":"http://www.artcritical.com/2018/10/02/peter-malone-on-david-row/"
+                },
+                {
+                    "title":"Calisthenic Abstraction: Four Decades of David Row by Stephanie Maine",
+                    "image_name":"/CalisthenicAbstraction-FourDecadesofDavidRowbyStephanieMaine.jpeg",
+                    "year":"2016",
+                    "description":"Artcritical Review",
+                    "url":"http://www.artcritical.com/2016/03/06/stephen-maine-on-david-row/"
+                },
+                {
+                    "title":"David Row: The Shape of Things at CMCA, Rockland, Maine",
+                    "image_name":"/DavidRow-TheShapeofThingsatCMCA,Rockland,Maine.jpeg",
+                    "year":"2021",
+                    "description":"The Shape of Things is the first major exhibition of painter and master printmaker David Row’s work in his home state. Born in Portland, in 1949, Row is a multi-generational Mainer. His father’s family settled in Perry, a small town in Washington County near the Canadian border, in the early 19th century. Row visited the family homestead many times as a child and thought of it “as the wildest place I’d ever seen.” In his teen years, Row’s family began summering on Cushing Island in Casco Bay, first in a series of rented cottages, then purchasing a house in 1968. Accessible only by private boat and with no vehicular traffic allowed, Cushing is a world apart. In the early 1990s, Row and his wife Kathleen built their own house and studio on the island. “The studio became a major part of my working life from the summer of 1994 to the present,” Row says, “I live and work there now for five months each year.”",
+                    "url":" "
+                },
+                {
+                    "title":"Brooklyn Rail: New Social Environment - David Row with Carter Ratcliff, Register for Friday July 9th, 2021",
+                    "image_name":"/BrooklynRail-NewSocialEnvironment-DavidRowwithCarterRatcliff,RegisterforFridayJuly9th,2021.jpeg",
+                    "year":"2021",
+                    "description":"Artist David Row joins poet and art critic Carter Ratcliff for a conversation.",
+                    "url":" "
+                },
+                {
+                    "title":"David Row's \"Split Infinitive\" to be included in Pepe Karmel's publication \"Abstract Art\"",
+                    "image_name":"/DavidRow'sSplitInfinitivetobeincludedinPepeKarmel'spublicationAbstract.jpeg",
+                    "year":"2019",
+                    "description":"Scheduled for an Autumn 2019 publication date, Abstract Art will be a scholarly and original survey of abstract art, discussing the roots of abstraction in nineteenth-century movements as well its development in the twentieth and twenty-first centuries.",
+                    "url":" "
+                },
+                {
+                    "title":"David Row Counter Clockwise Review in Art Critical",
+                    "image_name":"/DavidRowCounterClockwiseReviewinArtCritical.jpeg",
+                    "year":"2018",
+                    "description":"Scheduled for an Autumn 2019 publication date, Abstract Art will be a scholarly and original survey of abstract art, discussing the roots of abstraction in nineteenth-century movements as well its development in the twentieth and twenty-first centuries.",
+                    "url":"http://www.artcritical.com/2018/10/02/peter-malone-on-david-row/"
+                }
+            ],
+            "videos":[
+                {
+                    "url":"https://player.vimeo.com/video/609837154?h=ad4dd66e52",
+                    "description":" "
+                },
+                {
+                    "url":"https://player.vimeo.com/video/609837154?h=ad4dd66e52",
+                    "description":" "
+                }
+            ]
         },
         {
             "name":"Kikuo Saito",
@@ -1604,7 +1667,16 @@
                     "medium":"Oil on canvas",
                     "dimentions":"37 x 48-3/4 inches"
                 }
-           	]
+           	],
+            "press":[
+                {
+                    "title":"KinoSaito Arts Center opening Fall of 2019",
+                    "image_name":"/KinoSaitoArtsCenteropeningFallof2019.jpeg",
+                    "year":"2019",
+                    "description":"KinoSaito is a nonprofit organization and art space dedicated to all forms of abstract art, in the interdisciplinary spirit of its founding muse, Kikuo Saito.",
+                    "url":"https://www.kinosaito.org/"
+                }
+            ]
         },
         {
             "name":"Frank Stella",
@@ -1683,7 +1755,23 @@
                     "medium":"Acrylic on aluminum",
                     "dimentions":"28 x 16 x 14 inches"
                 }
-           	]
+           	],
+            "press":[
+                {
+                    "title":"Brooklyn Rail - Specific Forms",
+                    "image_name":"/BrooklynRail-SpecificForms.jpeg",
+                    "year":"2020",
+                    "description":"Art Seen - Specific Forms at Loretta Howard Gallery - Contributed by Mary Ann Caws",
+                    "url":"https://brooklynrail.org/2020/02/artseen/Specific-Forms/"
+                },
+                {
+                    "title":"Two Coats of Paint - Specific Forms",
+                    "image_name":"/TwoCoatsofPaint-SpecificForms.jpeg",
+                    "year":"2020",
+                    "description":"On its own terms: “Specific Forms” at Loretta Howard - Two Coats of Paint, contributed by Kim Uchiyama",
+                    "url":"https://www.twocoatsofpaint.com/2020/02/on-its-own-terms-specific-forms-at-loretta-howard.html?utm_source=MadMimi&utm_medium=email&utm_content=Specific+Objects%2C+Kim+Uchiyama%2C+Saul+Ostrow%2C+1970s%2C+politics%2C+social+media+services%2C+more&utm_campaign=20200204_m156801216_Feb+4%2C+2020&utm_term=On+its+own+terms_3A+_E2_80_9CSpecific+Forms_E2_80_9D+at+Loretta+Howard"
+                }
+            ]
         },
         {
             "name":"Other Artists",
